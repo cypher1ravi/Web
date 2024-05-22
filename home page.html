@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <div class="gradient">
+    <div class="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-6 order-2 col-md-12">
+                            <img src="image/waves.jpg" class="img-fluid mb-5 mt-5 slider_img">
+                        </div>
+                        <div class="col-lg-6  order-1 col-md-12">
+                            <div class="carousel-caption d-none d-md-block 
+                                speci">
+                                <h1 class="  text-light">Excllence is our<br> specially</h1>
+                                <a href="#" class="btn btn-outline-success more mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6 order-2 col-md-12">
+                            <img src="image/blume.jpg" class="img-fluid mb-5 mt-5">
+                        </div>
+                        <div class="col-lg-6  order-1 col-md-12">
+                            <div class="carousel-caption d-none d-md-block 
+                            speci">
+                                <h1 class="  text-light">Excllence is our<br> specially</h1>
+                                <a href="#" class="btn btn-outline-success more mt-3">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6 order-2 col-md-12">
+                            <img src="image/birds.jpg" class="img-fluid mb-5 mt-5">
+                        </div>
+                        <div class="col-lg-6  order-1n col-md-12">
+                            <div class="carousel-caption d-none d-md-block 
+                        speci">
+                                <h1 class="  text-light">Excllence is our<br> specially</h1>
+                                <a href="#" class="btn btn-outline-success more mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+</header>
+</div>
+<div class="gradient">
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/all.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+<script>
+    $('.demo_team .owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4        
+            }
+        }
+    })
+</script>
+</body>
+</html>
